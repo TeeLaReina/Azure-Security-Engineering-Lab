@@ -1,0 +1,30 @@
+# Environment and credentials
+.env
+*.env
+*.pem
+*.pfx
+*.key
+*.p12
+*.json.secret
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Terraform state (if used later)
+*.tfstate
+*.tfstate.backup
+.terraform/
